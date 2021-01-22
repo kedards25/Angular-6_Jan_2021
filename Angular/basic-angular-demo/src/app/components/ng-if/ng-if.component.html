@@ -1,0 +1,6 @@
+<div *ngIf="n1%2===0;else elseBlock">
+    <h2>Even</h2>
+</div>
+<ng-template #elseBlock>
+    <h2>Odd</h2>
+</ng-template>

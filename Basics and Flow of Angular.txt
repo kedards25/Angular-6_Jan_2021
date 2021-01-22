@@ -1,0 +1,23 @@
+Any front end technology allows us to create SPA(Single Page Application)
+
+index.html
+	content within web page keeps updating depending upon user 	request
+	Components helps to implement SPA
+
+index.html has <app-root></app-root> tag in which appComponent is loaded
+index.html
+	<app-root></app-root>
+
+
+Each component in Angular has 3 main files
+	<comp-name>.component.ts	=>logic and data
+	<comp-name>.component.css	=>stylesheet
+	<comp-name>.component.html	=>template file
+
+app-component has
+	app.module.ts	=>config->will contain the info about 					everything we require for the whole 					application and names of components to be 				registered(injected) with app component	
+	app.component.ts=>logic of app component	
+	app.component.css
+	app.component.html=>will hold reference to all other 				components as tags
+
+		
